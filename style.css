@@ -131,10 +131,15 @@ nav {
   padding: 10;
 }
 .complete-name{
-  background-color: #cf5d7f;
   font-weight: bold;
   text-align: center;
-  color: white;
+  margin-bottom: 15px;
+}
+.section {
+   margin-bottom: 20px;
+}
+.about-me {
+  text-align: justify;
 }
 
 @keyframes float {
@@ -145,41 +150,3 @@ nav {
   50% {
     transform: translateY(-20px);
   }
-}
-
-@media (max-width: 768px) {
-  nav {
-    padding: 15px 20px;
-  }
-
-  .nav-links {
-    gap: 20px;
-  }
-
-  .main-content {
-    flex-direction: column;
-    padding: 120px 20px 50px;
-    text-align: center;
-  }
-
-  .text-section {
-    margin-bottom: 50px;
-  }
-
-  .text-section h1 {
-    font-size: 36px;
-  }
-
-  .name {
-    font-size: 48px;
-  }
-
-  .my-photo {
-    width: 300px;
-    height: 300px;
-  }
-
-  .background-text {
-    font-size: 120px;
-  }
-}
