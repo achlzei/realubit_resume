@@ -8,7 +8,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <style>
         #cv-details {
-           display: none;
+            display: none;
             max-width: 800px;
             margin: 20px auto;
             padding: 60px;
@@ -22,10 +22,11 @@
             margin-left: 20px;
             line-height: 1.6;
         }
-        #alignment {
-            text-align: justify;
+        #cv-details ul {
+            list-style-position: inside;
+            padding-left: 10px;
+            margin-left: 0;
         }
-
     </style>
 </head>
 <body>
@@ -57,6 +58,7 @@
                 
                 <div class="section">
                     <h3>About Me</h3>
+                    <hr style="width: 100%; border: none; border-top: 2px solid black; margin: 5px 0;">
                     <p class="alignment">
                         A hardworking and persistent Information Systems student at Bicol University Polangui. 
                         I am eager to learn and expand my skills in technology and web development.  
@@ -66,7 +68,8 @@
                 </div>
                 <div class="section">
                     <h3>Educational Background</h3>
-                    <ul class="education-list">
+                    <hr style="width: 100%; border: none; border-top: 2px solid black; margin: 5px 0;">
+                    <ul class="education-list" id="cv-details ul">
                         <li>
                             <b>High School</b> (2018-2022)<br>
                             Marcial O. Ranola Memorial School<br>
@@ -88,18 +91,19 @@
                     </ul>
                 </div>
                 
-                <div class="section" id="alignment">
+                <div class="section">
                     <h3>Project Experience</h3>
+                    <hr style="width: 100%; border: none; border-top: 2px solid black; margin: 5px 0;">
                     
                     <b>UI Design for Local Business - School Project</b>
-                    <ul>
+                    <ul id="cv-details ul">
                     <li>Role: UI/UX Designer</li>
                     <li>Designed a user interface using Figma for a web system project.</li>
                     <li>Created visually appealing layouts and intuitive navigation to enhance user experience.</li>
                     </ul>
                     
                     <b>Web System for Local Handicraft Business - School Project</b>
-                    <ul>
+                    <ul id="cv-details ul">
                     <li>Role: Web Developer / System Designer</li>
                     <li>Implemented online ordering features allowing customers to browse products and place orders directly through the website.</li>
                     <li>Implemented user-friendly navigation and functional features for online business operations.</li>
@@ -108,6 +112,7 @@
 
                  <div class="section">
                     <h3>Skills</h3>
+                    <hr style="width: 100%; border: none; border-top: 2px solid black; margin: 5px 0;">
                     <ul>
                         <li>Basic HTML, CSS, C++, and Python</li>
                         <li>Basic Troubleshooting</li>
